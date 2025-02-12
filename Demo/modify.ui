@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>modify</class>
+ <widget class="QWidget" name="modify">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>731</width>
+    <height>480</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QPushButton" name="ModPeopleName">
+   <property name="geometry">
+    <rect>
+     <x>22</x>
+     <y>33</y>
+     <width>501</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 14pt &quot;微软雅黑&quot;;</string>
+   </property>
+   <property name="text">
+    <string>修改联系人姓名</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="ModPeoplePosition">
+   <property name="geometry">
+    <rect>
+     <x>22</x>
+     <y>91</y>
+     <width>501</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 14pt &quot;微软雅黑&quot;;</string>
+   </property>
+   <property name="text">
+    <string>修改联系人职位</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="ModPeopleAddress">
+   <property name="geometry">
+    <rect>
+     <x>22</x>
+     <y>149</y>
+     <width>501</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 14pt &quot;微软雅黑&quot;;</string>
+   </property>
+   <property name="text">
+    <string>修改联系人地址</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="ModPeopleNumber">
+   <property name="geometry">
+    <rect>
+     <x>22</x>
+     <y>207</y>
+     <width>501</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 14pt &quot;微软雅黑&quot;;</string>
+   </property>
+   <property name="text">
+    <string>修改联系人电话</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="DeletePeopleNumber">
+   <property name="geometry">
+    <rect>
+     <x>22</x>
+     <y>323</y>
+     <width>501</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 14pt &quot;微软雅黑&quot;;</string>
+   </property>
+   <property name="text">
+    <string>删除联系人电话</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="AddPeopleNumber">
+   <property name="geometry">
+    <rect>
+     <x>22</x>
+     <y>265</y>
+     <width>501</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 14pt &quot;微软雅黑&quot;;</string>
+   </property>
+   <property name="text">
+    <string>增加联系人电话</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="quit">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>380</y>
+     <width>501</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 14pt &quot;微软雅黑&quot;;</string>
+   </property>
+   <property name="text">
+    <string>退出</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>groupmanage</class>
+ <widget class="QWidget" name="groupmanage">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>730</width>
+    <height>479</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QPushButton" name="AddGroupPerson">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>132</y>
+     <width>501</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 14pt &quot;微软雅黑&quot;;</string>
+   </property>
+   <property name="text">
+    <string>增加群组人员</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="quit">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>250</y>
+     <width>501</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 14pt &quot;微软雅黑&quot;;</string>
+   </property>
+   <property name="text">
+    <string>退出</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="ModGroupName">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>74</y>
+     <width>501</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 14pt &quot;微软雅黑&quot;;</string>
+   </property>
+   <property name="text">
+    <string>修改群组名字</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="DeleteGroupPerson">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>190</y>
+     <width>501</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 14pt &quot;微软雅黑&quot;;</string>
+   </property>
+   <property name="text">
+    <string>删除群组人员</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

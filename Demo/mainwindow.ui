@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>866</width>
+    <height>497</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QTableWidget" name="twPeople">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>691</width>
+      <height>451</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QWidget" name="">
+    <property name="geometry">
+     <rect>
+      <x>690</x>
+      <y>0</y>
+      <width>191</width>
+      <height>451</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout">
+     <item>
+      <widget class="QPushButton" name="pushButton">
+       <property name="font">
+        <font>
+         <family>微软雅黑</family>
+         <pointsize>14</pointsize>
+         <italic>false</italic>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font: 14pt &quot;微软雅黑&quot;;</string>
+       </property>
+       <property name="text">
+        <string>添加联系人</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="delp">
+       <property name="styleSheet">
+        <string notr="true">font: 14pt &quot;微软雅黑&quot;;</string>
+       </property>
+       <property name="text">
+        <string>删除联系人</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="modp">
+       <property name="styleSheet">
+        <string notr="true">font: 14pt &quot;微软雅黑&quot;;</string>
+       </property>
+       <property name="text">
+        <string>修改联系人</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="seap">
+       <property name="styleSheet">
+        <string notr="true">font: 14pt &quot;微软雅黑&quot;;</string>
+       </property>
+       <property name="text">
+        <string>查找联系人</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="pushButton_2">
+       <property name="styleSheet">
+        <string notr="true">font: 14pt &quot;微软雅黑&quot;;</string>
+       </property>
+       <property name="text">
+        <string>统计信息</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="creg">
+       <property name="styleSheet">
+        <string notr="true">font: 14pt &quot;微软雅黑&quot;;</string>
+       </property>
+       <property name="text">
+        <string>创建分组</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="seeg">
+       <property name="styleSheet">
+        <string notr="true">font: 14pt &quot;微软雅黑&quot;;</string>
+       </property>
+       <property name="text">
+        <string>查看分组</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="modg">
+       <property name="styleSheet">
+        <string notr="true">font: 14pt &quot;微软雅黑&quot;;</string>
+       </property>
+       <property name="text">
+        <string>修改分组</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>866</width>
+     <height>19</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menu">
+    <property name="title">
+     <string>欢迎使用我们的通讯录！</string>
+    </property>
+   </widget>
+   <addaction name="menu"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
